@@ -1,0 +1,34 @@
+.listItemsMain {
+  list-style: none;
+}
+.blogListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleHead {
+  font-size: 25px;
+  color: #12022f;
+}
+.datePara {
+  color: #9aa5b1;
+}
+.descriptionData {
+  color: #616e7c;
+}
+hr {
+  background-color: #9aa5b1;
+  border-width: 0.1px;
+}
+@media (max-width: 992px) {
+  .titleHead {
+    font-size: 16px;
+  }
+  .datePara {
+    font-size: 12px;
+  }
+  .descriptionData {
+    font-size: 12px;
+  }
+}
